@@ -1,4 +1,4 @@
-Sitemap: https://github.com/joaqLuc/joaqLuc.github.io/blob/main/sitemap.xml
+Sitemap: https://joaquinlucas.com/sitemap.xml
 
 User-agent: *
 Disallow:
