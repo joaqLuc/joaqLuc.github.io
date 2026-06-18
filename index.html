@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joaquín Lucas — About</title>
+<link href="https://fonts.cdnfonts.com/css/apfel-grotezk" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f2ee;
+    --ink: #111111;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Apfel Grotezk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* cursor inicial = casita; el JS lo va cambiando de forma */
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M12 3 L20 10 L20 21 L4 21 L4 10 Z" fill="%23111111"/></svg>') 17 17, auto;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh 4vw;
+  }
+
+  header {
+    align-self: flex-start;
+    margin-bottom: 3.5vh;
+    font-size: clamp(15px, 1.4vw, 19px);
+  }
+
+  .about {
+    width: min(760px, 92vw);
+    font-size: clamp(18px, 2.2vw, 28px);
+    line-height: 1.18;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  .about p {
+    margin: 0 0 0.7em;
+  }
+
+  /* Flecha indicativa de scroll: minimal, en negro pleno (el balanceo lo mueve el JS) */
+  .scroll-hint {
+    width: 22px;
+    margin: 5vh auto 0;
+    will-change: transform;
+  }
+  .scroll-hint svg { display: block; }
+
+  .cv {
+    width: min(760px, 92vw);
+    margin: 7vh auto 12vh;
+    font-size: clamp(16px, 2.1vw, 26px);
+    line-height: 1.18;
+  }
+  .cv h2 {
+    font-size: inherit;
+    font-weight: 700;
+    margin: 4vh 0 1.2vh;
+  }
+  .cv p {
+    margin: 0 0 0.9em;
+  }
+  .cv em {
+    font-style: normal;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>Joaquín Lucas Guirao — About</div>
+</header>
+
+<div class="about">
+  <p>Joaquín Lucas Guirao (Alicante, 1989) combina su actividad profesional como arquitecto con la docencia y la investigación. Miembro del grupo de investigación PLAYA (Pensando el Levante desde la Arquitectura Y Altres) de la Universidad de Alicante y docente en la Escuela Superior de Ingeniería y Tecnología (ESIT) de la Universidad Internacional de La Rioja (UNIR).</p>
+  <p>Su trabajo investiga el ornamento como documento y la capacidad de la arquitectura para registrar las economías, los deseos y las jerarquías sociales que la producen. Esta investigación se desarrolla a través de múltiples escalas y formatos, que van del análisis computacional de archivos masivos a la publicación, la instalación y el proyecto arquitectónico.</p>
+  <p>Su práctica arquitectónica trabaja desde la proximidad y la colaboración. Entiende construir como una negociación, material y política, entre formas de vida, recursos disponibles y lugar.</p>
+</div>
+
+<div class="scroll-hint" aria-hidden="true">
+  <svg width="22" height="30" viewBox="0 0 22 30" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 2 V26 M3 18 L11 27 L19 18"/>
+  </svg>
+</div>
+
+<section class="cv">
+  <h2>Publicaciones</h2>
+  <p>→ <em>Una Piscina Geopolítica</em> (Handshake Books, 2022). Distribuido, entre otros, por Printed Matter (Nueva York), Antenne Books (Londres) y Terranova (Barcelona). Catalogado en Fundación Arquia / Próxima. Recomendado por FAD. Reseñado por Luis Burriel en AMC nº 334 (2025).</p>
+  <p>→ <em>¬Accesos</em> nº 3, revista de investigación artística de la Universidad Complutense de Madrid (UCM).</p>
+
+  <h2>Exposiciones y selecciones</h2>
+  <p>→ <em>Extrañamiento del paisaje</em>, exposición colectiva. Colegio Territorial de Arquitectos de Alicante (CTAA) y Universidad de Alicante (2025).</p>
+  <p>→ <em>Vernacular. Diálogos entre micropolíticas del paisaje</em>, exposición colectiva. Palacio de la Madraza, Granada (2021).</p>
+  <p>→ <em>Crea, Cuida y Coopera</em>. Photoalicante / Las Cigarreras, Alicante (2021).</p>
+  <p>→ Urban Fest 11 (2022).</p>
+  <p>→ <em>Esmorzar Interespècies</em>. Resistències Artístiques, Consorci de Museus de la Comunitat Valenciana (2021).</p>
+
+  <h2>Docencia</h2>
+  <p>→ Universidad Internacional de La Rioja (UNIR). Docente en el Máster Universitario en Herramientas y Tecnologías para el Diseño de Espacios Arquitectónicos Inteligentes, donde dirige Trabajos Fin de Máster, y en el Grado en Diseño de Interiores, impartiendo asignaturas relacionadas con la expresión gráfica y el prototipado mediante herramientas de fabricación digital.</p>
+  <p>→ Universidad de Alicante (UA). Profesor invitado en Proyectos Arquitectónicos 1 (2019–2020), miembro de tribunal en Composición Arquitectónica 1 (2021) y jury invitado en Proyectos Arquitectónicos 1 (2025).</p>
+
+  <h2>Conferencias</h2>
+  <p>→ III Congreso Internacional de Fotografía Contemporánea BePhoto, Photoalicante (2020).</p>
+  <p>→ Universidad Andrés Bello, ciclo de conferencias <em>Caja de herramientas</em>, Santiago de Chile (2022).</p>
+  <p>→ Mesa redonda Viurem'25, Sede Universitaria Ciudad de Alicante / CTAA (2025).</p>
+  <p>→ Universidad de Alicante, curso Proyectos Arquitectónicos 1 (2025).</p>
+
+  <h2>Formación</h2>
+  <p>→ Arquitecto, Universidad de Alicante (Matrícula de Honor, Proyecto Fin de Carrera).</p>
+  <p>→ Arquitecto Técnico, Universidad de Alicante.</p>
+  <p>→ Machine Learning: From Data to Decisions, MIT Professional Education.</p>
+</section>
+
+<script>
+  // El cursor va cambiando de silueta: casita → arco → círculo → cuadrado → balaustre
+  const cursorShapes = [
+    '<path d="M12 3 L20 10 L20 21 L4 21 L4 10 Z" fill="%23111111"/>',                                  // casita
+    '<path d="M5 21 L5 12 A7 7 0 0 1 19 12 L19 21 Z" fill="%23111111"/>',                               // arco
+    '<circle cx="12" cy="12" r="8.5" fill="%23111111"/>',                                               // círculo
+    '<rect x="4" y="4" width="16" height="16" fill="%23111111"/>',                                      // cuadrado
+    '<path d="M15 3 L15 5 L13.5 6 L16 9 L14 12 L16 15 L13.5 18 L16 19 L16 21 L8 21 L8 19 L10.5 18 L8 15 L10 12 L8 9 L10.5 6 L9 5 L9 3 Z" fill="%23111111"/>' // balaustre
+  ];
+
+  const cursorURL = inner =>
+    "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"34\" viewBox=\"0 0 24 24\">"
+    + inner + "</svg>') 17 17, auto";
+
+  let ci = 0;
+  document.body.style.cursor = cursorURL(cursorShapes[ci]);
+  setInterval(() => {
+    ci = (ci + 1) % cursorShapes.length;
+    document.body.style.cursor = cursorURL(cursorShapes[ci]);
+  }, 1000);
+
+  // Balanceo de la flecha por JS (setInterval), para que se mueva también en
+  // paneles/navegadores que congelan el reloj de las animaciones CSS
+  const arrow = document.querySelector('.scroll-hint');
+  let phase = 0;
+  setInterval(() => {
+    phase += 0.12;
+    const y = (1 - Math.cos(phase)) / 2 * 9; // 0 → 9 → 0 px
+    arrow.style.transform = 'translateY(' + y.toFixed(2) + 'px)';
+  }, 30);
+</script>
+
+</body>
+</html>
