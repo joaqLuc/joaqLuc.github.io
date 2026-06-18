@@ -142,15 +142,7 @@
     document.body.style.cursor = cursorURL(cursorShapes[ci]);
   }, 1000);
 
-  // Balanceo de la flecha por JS (setInterval), para que se mueva también en
-  // paneles/navegadores que congelan el reloj de las animaciones CSS
-  const arrow = document.querySelector('.scroll-hint');
-  let phase = 0;
-  setInterval(() => {
-    phase += 0.12;
-    const y = (1 - Math.cos(phase)) / 2 * 9; // 0 → 9 → 0 px
-    arrow.style.transform = 'translateY(' + y.toFixed(2) + 'px)';
-  }, 30);
+
 </script>
 
 </body>
