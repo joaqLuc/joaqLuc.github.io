@@ -15,27 +15,72 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Joaquín Lucas Guirao",
-  "alternateName": ["Joaquín Lucas", "Joaquín Lucas Arquitecto", "Joaquín Lucas arquitectura", "Joaquin Lucas", "Joaquin Lucas Arquitecto"],
-  "jobTitle": "Arquitecto",
-  "description": "Arquitecto, docente e investigador. Su trabajo investiga el ornamento como documento y la capacidad de la arquitectura para registrar las economías, los deseos y las jerarquías sociales que la producen.",
-  "birthPlace": { "@type": "Place", "name": "Alicante, España" },
-  "url": "https://joaquinlucas.com",
-  "worksFor": { "@type": "Organization", "name": "Joaquín Lucas Estudio" },
-  "alumniOf": [
-    { "@type": "CollegeOrUniversity", "name": "Universidad de Alicante" },
-    { "@type": "CollegeOrUniversity", "name": "MIT Professional Education" }
-  ],
-  "affiliation": [
-    { "@type": "Organization", "name": "Universidad Internacional de La Rioja (UNIR)" },
-    { "@type": "Organization", "name": "Grupo de investigación PLAYA, Universidad de Alicante" }
-  ],
-  "sameAs": [
-    "https://www.instagram.com/j______lucas/",
-    "https://www.linkedin.com/in/joaqu%C3%ADn-lucas/",
-    "https://orcid.org/0009-0001-7423-0701",
-    "https://scholar.google.es/citations?user=cqJPROEAAAAJ&hl=es"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://joaquinlucas.com/#person",
+      "name": "Joaquín Lucas Guirao",
+      "alternateName": ["Joaquín Lucas", "Joaquín Lucas Arquitecto"],
+      "jobTitle": "Arquitecto",
+      "description": "Arquitecto, docente e investigador. Su trabajo investiga el ornamento como documento y la capacidad de la arquitectura para registrar las economías, los deseos y las jerarquías sociales que la producen.",
+      "birthPlace": { "@type": "Place", "name": "Alicante, España" },
+      "url": "https://joaquinlucas.com",
+      "worksFor": { "@type": "Organization", "name": "Joaquín Lucas Estudio" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Universidad de Alicante" },
+        { "@type": "CollegeOrUniversity", "name": "MIT Professional Education" }
+      ],
+      "affiliation": [
+        { "@type": "Organization", "name": "Universidad Internacional de La Rioja (UNIR)" },
+        { "@type": "Organization", "name": "Grupo de investigación PLAYA, Universidad de Alicante" }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/j______lucas/",
+        "https://www.linkedin.com/in/joaqu%C3%ADn-lucas/",
+        "https://orcid.org/0009-0001-7423-0701",
+        "https://scholar.google.es/citations?user=cqJPROEAAAAJ&hl=es"
+      ],
+      "subjectOf": [
+        {
+          "@type": "Article",
+          "url": "https://www.elledecor.com/es/arquitectura/a62326202/vivienda-reformada-alicante-pasillo-curvas/",
+          "publisher": { "@type": "Organization", "name": "Elle Decor España" }
+        },
+        {
+          "@type": "Article",
+          "url": "https://diariodesign.com/interiorismo/especie-arquitectura-alicante/",
+          "publisher": { "@type": "Organization", "name": "Diario Design" }
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://www.consorcimuseus.gva.es/aprende/joaquin-lucas-guirao-y-carlos-pastor-garcia-esmorzar-interespecies/?lang=es",
+          "publisher": { "@type": "Organization", "name": "Consorci de Museus de la Comunitat Valenciana" }
+        },
+        {
+          "@type": "Article",
+          "url": "https://alicanteplaza.es/alicanteplaza/unamiradaalaespaadelaspiscinasatravesdelcasodelavegabaja",
+          "publisher": { "@type": "Organization", "name": "Alicante Plaza" }
+        },
+        {
+          "@type": "Article",
+          "url": "https://valenciaplaza.com/estar-a-remulla-es-un-objecte-de-desig",
+          "publisher": { "@type": "Organization", "name": "Valencia Plaza" }
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://joaquinlucas.com/#piscina-geopolitica",
+      "name": "Una piscina geopolítica",
+      "author": [
+        { "@id": "https://joaquinlucas.com/#person" },
+        { "@type": "Person", "name": "Diego Abellán" }
+      ],
+      "publisher": { "@type": "Organization", "name": "Handshake" },
+      "isbn": "9788412393439",
+      "inLanguage": "es",
+      "url": "https://handshake.fun/products/una-piscina-geopolitica"
+    }
   ]
 }
 </script>
